@@ -42,8 +42,6 @@ const send = async (queue: string, msg: any) => {
         persistent: true,
         contentType: 'application/json'
       });
-      
-      console.log(`Sent ${JSON.stringify(msg)}`);
     });
 
     setTimeout(() => {
