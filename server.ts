@@ -29,6 +29,6 @@ server.on('error', err => {
     console.log(err);
 });
 
-server.listen(12345, 'localhost', () => {
+server.listen(12345, '127.0.0.1', () => {
     console.log('SMTP server is listening on port 12345');
 });
